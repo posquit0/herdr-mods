@@ -52,7 +52,7 @@ These are sample readings, not live account limits. Local token history is kept 
 
 Requires **Herdr Desktop** and **Node ≥22.15**. Tested with Herdr 0.1.16 on macOS. There are no npm dependencies. Other operating systems have not been validated.
 
-Clone [the repository](https://github.com/posquit0/herdr-mods#by-hand), or download and extract the [Analytics ZIP](https://github.com/posquit0/herdr-mods/releases/download/analytics-v0.0.0/analytics.zip). Run the following from the directory containing `analytics/`: <!-- x-release-please-version -->
+Clone [the repository](https://github.com/posquit0/herdr-mods#by-hand), or download and extract the [Analytics ZIP](https://github.com/posquit0/herdr-mods/releases/download/analytics-v0.1.0/analytics.zip). Run the following from the directory containing `analytics/`: <!-- x-release-please-version -->
 
 ```sh
 HERDR_HOME="${HERDR_APP_HOME:-${XDG_CONFIG_HOME:-$HOME/.config}/herdr-app}"
