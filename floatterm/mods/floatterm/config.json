@@ -1,0 +1,24 @@
+[
+  {
+    "id": "scratch",
+    "name": "Scratch shell",
+    "key": "s",
+    "session": "persistent",
+    "scope": "tab"
+  },
+  {
+    "id": "shell",
+    "name": "Fresh shell",
+    "key": "f",
+    "session": "ephemeral",
+    "scope": "tab"
+  },
+  {
+    "id": "lazygit",
+    "name": "Lazygit",
+    "key": "g",
+    "command": "lazygit",
+    "session": "ephemeral",
+    "scope": "tab"
+  }
+]

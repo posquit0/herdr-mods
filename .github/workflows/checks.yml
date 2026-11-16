@@ -1,0 +1,24 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22, 24]
+    steps:
+    - uses: actions/checkout@v7
+    - uses: tedilabs/github-actions/.github/actions/mise.setup-tools@main
+      with:
+        tool_versions: node ${{ matrix.node }}
+    - run: npm test
+    - run: npm run check:package
+    - run: |
+        python3 scripts/package-mod.py floatterm
+        python3 scripts/package-mod.py analytics

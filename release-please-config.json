@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "separate-pull-requests": true,
+  "include-component-in-tag": true,
+  "tag-separator": "-",
+  "bump-minor-pre-major": true,
+  "packages": {
+    "floatterm": {
+      "release-type": "simple",
+      "component": "floatterm",
+      "version-file": "VERSION",
+      "initial-version": "0.1.0",
+      "extra-files": ["README.md"]
+    },
+    "analytics": {
+      "release-type": "simple",
+      "component": "analytics",
+      "version-file": "VERSION",
+      "initial-version": "0.1.0",
+      "extra-files": ["README.md"]
+    }
+  }
+}
