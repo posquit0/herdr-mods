@@ -31,7 +31,7 @@ A native floating-terminal launcher for Herdr Desktop. Pop open a shell, Lazygit
 
 Requires **Herdr Desktop** and **macOS with `/bin/zsh`**. Tested with Herdr 0.1.16. Install Lazygit separately if you want the bundled Git entry; the shell entries need no extra tools. Floatterm itself does not require Node.
 
-Clone [the repository](https://github.com/posquit0/herdr-mods#by-hand), or download and extract the [Floatterm ZIP](https://github.com/posquit0/herdr-mods/releases/download/floatterm-v0.0.0/floatterm.zip). Run the following from the directory containing `floatterm/`: <!-- x-release-please-version -->
+Clone [the repository](https://github.com/posquit0/herdr-mods#by-hand), or download and extract the [Floatterm ZIP](https://github.com/posquit0/herdr-mods/releases/download/floatterm-v0.1.0/floatterm.zip). Run the following from the directory containing `floatterm/`: <!-- x-release-please-version -->
 
 ```sh
 HERDR_HOME="${HERDR_APP_HOME:-${XDG_CONFIG_HOME:-$HOME/.config}/herdr-app}"
